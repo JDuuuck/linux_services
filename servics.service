@@ -4,8 +4,8 @@ Description=bot
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/mono Twitch_AllJoinTest.exe teischente 20srhaw8dzhcvbfrd930heo12q7r0z
-WorkingDirectory=/home/ubuntu/TwitchAllJoin2
+ExecStart=
+WorkingDirectory=
 Restart=on-failure
 RestartSec=30
 Type=simple
