@@ -1,14 +1,11 @@
 
 [Unit]
 Description=bot
-After=network.target
 
 [Service]
 ExecStart=
 WorkingDirectory=
 Restart=on-failure
-RestartSec=30
-Type=simple
 
 [Install]
 WantedBy=multi-user.target
