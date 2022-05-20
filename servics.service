@@ -2,8 +2,8 @@
 Description=bot
 
 [Service]
-ExecStart=
-WorkingDirectory=
+WorkingDirectory=/root/
+ExecStart=/root/
 Restart=on-failure
 
 [Install]
